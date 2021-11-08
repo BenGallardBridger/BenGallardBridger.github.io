@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: #666db3;
+    background: #ffffff;
 }
 .navbar {
     background:#020a52;
@@ -49,6 +49,9 @@ body {
 	font-size: 1.3rem;
 	line-height: 1.5;
 }
+.projects h2 {
+	padding-top: 5em;
+}
 .card-columns{
 	margin: 4em auto;
 	padding: 1em;
@@ -85,4 +88,5 @@ html {
 .accordion{
 	padding: 1em;
 }
+
 
