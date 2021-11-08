@@ -1,8 +1,13 @@
+@font-face {
+  font-family: FontAwesome;
+  src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+}
 body {
     padding: 0;
     margin: 0;
     background: #ffffff;
 }
+
 .navbar {
     background:#020a52;
 }
@@ -34,6 +39,7 @@ body {
     top: 0;
     background: rgba(0, 0, 0, 0.6);
 }
+
 .description {
 	left: 50%;
 	position: absolute;
@@ -48,14 +54,6 @@ body {
 	color: #fff;
 	font-size: 1.3rem;
 	line-height: 1.5;
-}
-.projects h2 {
-	padding-top: 5em;
-}
-.card-columns{
-	margin: 4em auto;
-	padding: 1em;
-	position: relative;
 }
 
 .card-title {
@@ -72,6 +70,9 @@ body {
 	margin-bottom: 16px;
 }
 
+#certCard {
+	width: 15vw;
+}
 
 .page-footer {
     background-color: #222;
@@ -89,4 +90,21 @@ html {
 	padding: 1em;
 }
 
+.card-header .btn.btn-block h2:after {
+    /* symbol for "opening" panels */
+	font-family: FontAwesome;
+    content: "\f078";    /* adjust as needed, taken from bootstrap.css */
+	font-weight: 900;
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+	float: right;
+	transform: rotate(180deg);
+}
+.card-header .btn.btn-block.collapsed h2:after {
+    /* symbol for "collapsed" panels */
+    content: "\f078";    /* adjust as needed, taken from bootstrap.css */
+	font-weight: 900;
+	float: right;
+	transform: rotate(0deg)
+}
 
