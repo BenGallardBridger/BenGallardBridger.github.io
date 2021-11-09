@@ -56,6 +56,31 @@ body {
 	line-height: 1.5;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -56px;
+    visibility: hidden;
+}
+
+#projects {
+	padding-top: 2em;
+}
+
+.tab-content{
+	padding: 3em;
+}
+
+.nav.nav-tabs{
+	padding-left: 3em;
+	padding-top: 3em;
+}
+.nav-tabs .nav-link{
+	    border: 1px solid;
+	border-color: #dee2e6 #dee2e6 #dee2e6;
+	color: #dee2e6;
+}
+
 .card-title {
 	color: #333;
 	font-size: 1.3rem;
@@ -85,26 +110,5 @@ body {
 }
 html {
   scroll-behavior: smooth;
-}
-.accordion{
-	padding: 1em;
-}
-
-.card-header .btn.btn-block h2:after {
-    /* symbol for "opening" panels */
-	font-family: FontAwesome;
-    content: "\f078";    /* adjust as needed, taken from bootstrap.css */
-	font-weight: 900;
-    float: right;        /* adjust as needed */
-    color: grey;         /* adjust as needed */
-	float: right;
-	transform: rotate(180deg);
-}
-.card-header .btn.btn-block.collapsed h2:after {
-    /* symbol for "collapsed" panels */
-    content: "\f078";    /* adjust as needed, taken from bootstrap.css */
-	font-weight: 900;
-	float: right;
-	transform: rotate(0deg)
 }
 
