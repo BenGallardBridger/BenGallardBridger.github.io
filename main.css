@@ -21,6 +21,9 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
+.navbar-collapse .nav-link{
+}
+
 .header {
     background-image: url('images/background.jpg');
     background-size: cover;
