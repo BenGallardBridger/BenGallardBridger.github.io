@@ -28,10 +28,13 @@
 						<a class="nav-link" href="#topProject"><i class="fa fa-fw fa-code"></i> Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fa fa-fw fa-envelope-open"></i> Contact</a>
+						<a class="nav-link" data-bs-toggle="modal" data-bs-target="#contactForm"><i class="fa fa-fw fa-envelope-open"></i> Contact Me</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="https://www.linkedin.com/in/ben-gallard-bridger"><i class="fa fa-fw fa-linkedin"></i> Linkedin</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/BenGallardBridger"><i class="fa fa-fw fa-github"></i> Github</a>
 					</li>
 			</ul>
 		</div>
@@ -54,8 +57,8 @@
 					<div class="card-body">
 						<h5 class="card-title">Covid-19/Airport Data Website</h5>
 						<p class="card-text">This project was part of the Team Software Engineering module which was taken in the second year of my course. The aim of this project was to see if there was A direct relationship between COVID-19 infection cases and the number of incoming flights.</p>
-						<a href="#" class="btn btn-primary">View Website</a>
-						<a href="#" class="btn btn-primary">View Repository</a>
+						<a href="https://tse-group-8.herokuapp.com/" class="btn btn-primary">View Website</a>
+						<a href="https://github.com/binaryoverload/TSEGroup8Website" class="btn btn-primary">View Repository</a>
 					</div>
 				</div>
 			</div>
@@ -175,6 +178,31 @@
 	</div>
 	</div>
 	</footer>
+	<div class="modal fade" id="contactForm" tabindex="-1" aria-labelledby="contactFormLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactFormLabel">Contact Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="mb-3">
+			<label for="exampleInputEmail1" class="form-label">Email address:</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+		  </div>
+		  <div class="mb-3">
+			<label for="message" class="form-label">Message:</label>
+			<textarea class="form-control" id="message" rows="3"></textarea>
+		  </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
     </body>
     
 </html>
