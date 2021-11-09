@@ -64,15 +64,20 @@ a.anchor {
 }
 
 .tab-content{
-	padding: 3em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 2em;
+	border: 1px solid;
+	border-color: #dee2e6 #dee2e6 #dee2e6;
 }
 
-.nav.nav-tabs{
+.nav.nav-pills{
 	padding-left: 3em;
 	padding-top: 3em;
+	padding-right: 3em;
 }
-.nav-tabs .nav-link{
-	    border: 1px solid;
+.nav-pills .nav-link{
+	border: 1px solid;
 	border-color: #dee2e6 #dee2e6 #dee2e6;
 	color: #dee2e6;
 }
