@@ -31,6 +31,9 @@ body {
     position: relative;
 	padding-top: 54px;
 }
+.page-header{
+		margin-top: 54px;
+}
 .overlay {
     position: absolute;
     min-height: 100%;
