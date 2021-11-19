@@ -45,7 +45,7 @@ body {
 
 .description {
 	left: 50%;
-	position: absolute;
+	position: relative;
 	top: 40%;
 	transform: translate(-50%, -55%);
 	text-align: center;
