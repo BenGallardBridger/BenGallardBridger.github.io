@@ -21,9 +21,6 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
-.navbar-collapse .nav-link{
-}
-
 .header {
     background-image: url('images/background.jpg');
     background-size: cover;
@@ -32,7 +29,7 @@ body {
 	padding-top: 54px;
 }
 .page-header{
-		margin-top: 54px;
+    margin-top: 54px;
 }
 .overlay {
     position: absolute;
@@ -78,7 +75,7 @@ a.anchor {
 	border-color: #dee2e6 #dee2e6 #dee2e6;
 }
 
-.nav.nav-tabs{
+.nav .nav-tabs{
 	padding-left: 3em;
 	padding-top: 3em;
 	padding-right: 3em;
