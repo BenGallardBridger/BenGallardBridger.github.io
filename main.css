@@ -86,6 +86,11 @@ a.anchor {
 	border-color: #dee2e6 #dee2e6 #dee2e6;
 	color: #dee2e6;
 }
+.nav-link.dropdown-toggle{
+	border: 1px solid;
+	border-color: #dee2e6 #dee2e6 #fff;
+	color: #495057;;
+}
 
 .card-title {
 	color: #333;
