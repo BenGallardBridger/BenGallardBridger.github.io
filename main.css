@@ -105,6 +105,13 @@ a.anchor {
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	margin-bottom: 16px;
 }
+[class^="col"] {
+	padding-bottom: 2%
+}
+
+[class^="col"].p{
+	padding-left:2%
+}
 
 .page-footer {
     background-color: #222;
